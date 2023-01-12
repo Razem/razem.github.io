@@ -3,7 +3,7 @@
 # ----- Commons label -----
 
 layout:
-  post: Příspěvek
+  post: Článek
   category: Kategorie
   tag: Štítek
 
@@ -30,14 +30,14 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: Tento příspěvek je autorem licencován pod :LICENSE_NAME.
+    template: Tento článek je autorem licencován pod :LICENSE_NAME.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Některá práva vyhrazena.
   verbose: >-
-    Pokud není uvedeno jinak, jsou příspěvky na tomto webu autorem licencovány
+    Pokud není uvedeno jinak, jsou články na tomto webu autorem licencovány
     pod licencí Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 meta: Tento blog používá :PLATFORM s motivem :THEME.
@@ -77,15 +77,13 @@ post:
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%e. %m. %Y'
+    strftime: '%e. %b %Y'
     dayjs: 'll'
   archives:
-    strftime: '%m'
+    strftime: '%b'
     dayjs: 'MMM'
 
 # categories page
 categories:
-  category_measure: kategorie
-  post_measure:
-    singular: příspěvěk
-    plural: příspěvky
+  category_measure: (počet kategorií)
+  post_measure: (počet článků)
