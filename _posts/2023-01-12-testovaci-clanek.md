@@ -1,7 +1,7 @@
 ---
 title: Testovací článek
 date: 2023-01-12 22:05:01 +0100
-categories: [Blogování, Test, Dvě slova]
+categories: [Blogování, Super podkategorie]
 tags: [bla, test]
 ---
 
