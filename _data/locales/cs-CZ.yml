@@ -1,5 +1,4 @@
 # The layout text of site
-# Credits: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_data/locales/cs-CZ.yml
 
 # ----- Commons label -----
 
@@ -14,14 +13,14 @@ tabs:
   home: Domů
   categories: Kategorie
   tags: Štítky
-  archives: Archivy
+  archives: Archív
   about: O mně
 
 # the text displayed in the search bar & search results
 search:
   hint: hledat
   cancel: Zrušit
-  no_results: Ups! Žádný výsledek nenalezen.
+  no_results: Hupsík dupsík! Nic to nenašlo.
 
 panel:
   lastmod: Nedávno aktualizováno
@@ -31,24 +30,24 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: Tento příspěvek je licencován pod :LICENSE_NAME autorem.
+    template: Tento příspěvek je autorem licencován pod :LICENSE_NAME.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Některá práva vyhrazena.
   verbose: >-
-    Pokud není uvedeno jinak, jsou příspěvky na tomto webu licencovány
-    pod licencí Creative Commons Attribution 4.0 International (CC BY 4.0) Licence autora.
+    Pokud není uvedeno jinak, jsou příspěvky na tomto webu autorem licencovány
+    pod licencí Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-meta: Použití :PLATFORM s motivem :THEME.
+meta: Tento blog používá :PLATFORM s motivem :THEME.
 
 not_found:
-  statment: Omlouváme se, adresu URL jsme špatně umístili nebo odkazuje na něco, co neexistuje.
+  statment: Hupsík dupsík! Na téhle URL adrese nic není.
 
 notification:
   update_found: Je k dispozici nová verze obsahu.
-  update: Aktualizace
+  update: Aktualizovat
 
 # ----- Posts related labels -----
 
@@ -56,10 +55,10 @@ post:
   written_by: Od
   posted: Zveřejněno
   updated: Aktualizováno
-  words: slova
+  words: slov
   pageview_measure: zhlednutí
   read_time:
-    unit: minut
+    unit: min
     prompt: čtení
   relate_posts: Další čtení
   share: Sdílet
@@ -78,11 +77,11 @@ post:
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%b %e, %Y'
-    dayjs: 'll'
+    strftime: '%e. %B %Y'
+    dayjs: 'LL'
   archives:
-    strftime: '%b'
-    dayjs: 'MMM'
+    strftime: '%B'
+    dayjs: 'MMMM'
 
 # categories page
 categories:
