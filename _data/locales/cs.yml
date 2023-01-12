@@ -71,19 +71,19 @@ post:
       title: Kopírovat odkaz
       succeed: Zkopírováno!
   # pinned prompt of posts list on homepage
-  pin_prompt: Připnuto
+  pin_prompt: Připnutý
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: '%e. %b %Y'
+    strftime: '%e. %m. %Y'
     dayjs: 'll'
   archives:
-    strftime: '%b'
+    strftime: '%m'
     dayjs: 'MMM'
 
 # categories page
 categories:
-  category_measure: (počet kategorií)
-  post_measure: (počet článků)
+  category_measure: × kategorie
+  post_measure: × článek
