@@ -14,7 +14,7 @@ tabs:
   categories: Kategorie
   tags: Štítky
   archives: Archív
-  about: O mně
+  about: Cože?
 
 # the text displayed in the search bar & search results
 search:
@@ -37,7 +37,7 @@ copyright:
   # Displayed in the footer
   brief: Některá práva vyhrazena.
   verbose: >-
-    Pokud není uvedeno jinak, jsou články na tomto webu autorem licencovány
+    Není-li uvedeno jinak, jsou články na tomto webu autorem licencovány
     pod licencí Creative Commons Attribution 4.0 International (CC BY 4.0).
 
 meta: Tento blog používá :PLATFORM s motivem :THEME.
@@ -52,7 +52,7 @@ notification:
 # ----- Posts related labels -----
 
 post:
-  written_by: Od
+  written_by:
   posted: Zveřejněno
   updated: Aktualizováno
   words: slov
