@@ -7,17 +7,17 @@ platforms:
     # See: https://github.com/justinribeiro/share-to-mastodon#properties
     instances:
       - label: mamutovo.cz
-        link: "https://mamutovo.cz/"
+        link: "https://mamutovo.cz"
       - label: witter.cz
-        link: "https://witter.cz/"
+        link: "https://witter.cz"
       - label: f.cz
-        link: "https://f.cz/"
+        link: "https://f.cz"
       - label: mastodonczech.cz
-        link: "https://mastodonczech.cz/"
+        link: "https://mastodonczech.cz"
       - label: mastodon.arch-linux.cz
-        link: "https://mastodon.arch-linux.cz/"
+        link: "https://mastodon.arch-linux.cz"
       - label: mastodon.social
-        link: "https://mastodon.social/"
+        link: "https://mastodon.social"
 
   - type: Bluesky
     icon: "fa-brands fa-bluesky"
